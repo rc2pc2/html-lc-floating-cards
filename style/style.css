@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.float-left{
+    float: left;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.25rem;
+}
+
+h1{
+    color: #e41f85;
+    font-size: 2.75rem;
+    margin: 3rem 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+.text-center{
+    text-align: center;
+}
+
+.email-address{
+    color: #60bbcc;
+}
+
+section.title{
+    margin-bottom: 3rem;
+}
+
+div.column{
+    width: 33.33%;
+    padding: 25px;
+}
+
+article.card{
+    background-color: #0f0e17;
+    color: white;
+
+    /* credits: Tobias Ahlin */
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+
+
+article.card img{
+    height: 100px;
+}
+
+article.card div.content{
+    padding-left: 15px;
+    padding-top: 8px;
+    line-height: 1.75rem;
+}
+
+article.card p.card-title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
